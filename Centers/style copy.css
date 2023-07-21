@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), 
+                                    rgba(4, 43, 75, 0.5)),
+                                    url("../img/c3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+}
+
+#total{
+    width: 600px;
+    height: 500px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+#card{
+    margin-bottom: 20px;
+}
+
+#card img{
+    /* width: 100px; */
+    height: 200px;
+}
+
+#txt_t {
+    color: blueviolet;
+    direction: rtl;
+    text-align: center;
+}
+
+#txt {
+    direction: rtl;
+    text-align: center;
+}
